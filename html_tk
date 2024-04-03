@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <script src="dadosUsuario.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="barraazulnotopo">
+        facebook
+        <input type="text">
+        <input type="date" onchange="showSelectedDate()" id="inputCalendario">
+        <p id="selectedDate"></p>
+    </div>
+
+    <div class="grade">
+        <div class="quadrobranco esquerdo">
+            <img id="fotododitocujo">
+            <p>nome: <spam id="nomeDoMeliante"></spam></p>
+            <p>informação: <spam id="informaçãoDoMeliante"></spam></p>
+            <p>sobre mim:</p>
+            <p>sexo: <spam id="sexoDoMeliante"></spam></p>
+            <p>Data De Nascimento: <spam id="DataDeNascimentoDoMeliante"></spam></p>
+        </div>
+    
+        <div class="quadrobranco central">
+            <p>Amigos Íntimos: <spam id="AmigosÍntimosdomeliante"></spam></p>
+            <img id="fotodadireita">
+            <p> Postagens do <span id="primeiroNome"></span>:</p>
+            <div id="postagens">         
+            </div>
+        </div>
+    
+        <div class="quadrobranco direito">
+            <p>pais: <spam id="paisdomeliante"></spam></p>
+            <p>irmãos: <spam id="irmãosdomeliante"></spam></p>
+            <p>cidade: <spam id="cidadedomeliante"></spam></p>
+            <p>cidade natal: <spam id="cidadenataldomeliante"></spam></p>
+            <p>bio: <spam id="biodomeliante"></spam></p>
+            <p> fease favorita: <spam id="frasefavoritadomeliante"></spam></p>
+        </div>
+    </div>
+
+    <script src="funcoes.js"></script>
+</body>
+</html>
